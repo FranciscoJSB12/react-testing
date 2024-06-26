@@ -5,10 +5,10 @@ En este caso se trabajará con Vitest.
 
 ## Cómo configurar el ambiente de pruebas con React y Typescript
 
-1. Instalar vitest.
+1. Instalar dependencias.
 
 ```
-npm install vitest -D
+npm install -D vitest jsdom @testing-library/react @testing-library/dom
 ```
 
 2. Añadir el script para las pruebas en el package.json.
@@ -21,7 +21,7 @@ npm install vitest -D
 }
 ```
 
-3. Crear un archivo App.test.tsx en una carpeta tests al mismo nivel de src.
+3. Crear un archivo `Main.test.ts` en una carpeta tests al mismo nivel de src.
 
 4. Asegurarse de que en el tsconfig.app.json esté incluida la carpeta tests si está por fuera de src.
 
@@ -60,17 +60,9 @@ export default defineConfig({
 })
 ```
 
-7. Instalar el módulo jsdom
+- Debe haberse asegurado de instalar jsdom en el primer paso, este paquete es necesario ya que por defecto el ambiente de pruebas viene para Node.js, por lo que no tiene las API del navegador, para eso se necesita emular el ambiente del navegador y se hace con este paquete.
 
-```
-npm install jsdom -D
-```
-
-8. Instalar las dependencias para testear componentes de React, en este caso se usará React Testing Library.
-
-```
-npm install @testing-library/react @testing-library/dom @types/react @types/react-dom -D
-```
+- También asegurese de tener instalado los paquetes de React Testing Library y vitest.
 
 ## Documentación
 

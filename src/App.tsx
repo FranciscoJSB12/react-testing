@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export const App = () => {
-  const [isTextActive, setIsTextActive] = useState(true);
+  const [isTextActive, setIsTextActive] = useState(false);
 
   return (
     <main>
