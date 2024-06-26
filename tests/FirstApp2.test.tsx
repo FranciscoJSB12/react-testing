@@ -1,5 +1,5 @@
-import { cleanup, render, screen } from '@testing-library/react';
 import { describe, expect, test, afterEach } from 'vitest';
+import { cleanup, render, screen } from '@testing-library/react';
 import { FirstApp } from '../src/FirstApp';
 
 describe('Pruebas en <FirstApp/>', () => {
