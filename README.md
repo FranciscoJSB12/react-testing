@@ -62,7 +62,7 @@ export default defineConfig({
 
 - Debe haberse asegurado de instalar jsdom en el primer paso, este paquete es necesario ya que por defecto el ambiente de pruebas viene para Node.js, por lo que no tiene las API del navegador, para eso se necesita emular el ambiente del navegador y se hace con este paquete.
 
-- También asegurese de tener instalado los paquetes de React Testing Library y vitest.
+- También asegurese de tener instalado los paquetes de React Testing Library y Vitest.
 
 ## Documentación
 
