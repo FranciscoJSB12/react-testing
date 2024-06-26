@@ -1,6 +1,6 @@
 # React Vitest
 
-Proyecto realizado para documentar la preparación del entorno de pruebas al usar React y Typescritpt.
+Proyecto realizado para documentar la preparación del entorno de pruebas al usar React y Typescript.
 En este caso se trabajará con Vitest.
 
 ## Cómo figurar el ambiente de pruebas con React y Typescript
