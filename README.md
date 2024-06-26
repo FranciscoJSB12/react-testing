@@ -21,7 +21,7 @@ npm install vitest -D
 }
 ```
 
-3. Probar que el ambiente ha sido configurado, cree un archivo, por ejemplo, un App.test.tsx en una carpeta tests al mismo nivel de src.
+3. Crear un archivo App.test.tsx en una carpeta tests al mismo nivel de src.
 
 4. Asegurarse de que en el tsconfig.app.json esté incluida la carpeta tests si está por fuera de src.
 
@@ -29,7 +29,7 @@ npm install vitest -D
 "include": ["src", "tests"]
 ```
 
-5. Ejecute el script `npm run test`. La siguiente prueba debería pasar sin problemas.
+5. La siguiente prueba debería pasar sin problemas, copiar y pegar para probar que todo funcione, luego ejecutar `npm run test`.
 
 ```
 import { describe, test, expect } from 'vitest';
@@ -43,7 +43,7 @@ describe('<App/> Component', () => {
 
 6. Configurar el vite.config.ts
 
-- Escribir la siguiente linea al inicio del archivo para habilitar tipado.
+- Escribir la siguiente línea al inicio del archivo para habilitar tipado.
 
 ```
 /// <reference types="vitest" />
@@ -60,7 +60,7 @@ export default defineConfig({
 })
 ```
 
-7. Instalar el modulo jsdom
+7. Instalar el módulo jsdom
 
 ```
 npm install jsdom -D
