@@ -3,7 +3,7 @@
 Proyecto realizado para documentar la preparación del entorno de pruebas al usar React y Typescript.
 En este caso se trabajará con Vitest.
 
-## Cómo figurar el ambiente de pruebas con React y Typescript
+## Cómo configurar el ambiente de pruebas con React y Typescript
 
 1. Instalar vitest.
 
@@ -29,7 +29,7 @@ npm install vitest -D
 "include": ["src", "tests"]
 ```
 
-5. Ejecute el script `npm run test`. La prueba debería pasar sin problemas.
+5. Ejecute el script `npm run test`. La siguiente prueba debería pasar sin problemas.
 
 ```
 import { describe, test, expect } from 'vitest';
